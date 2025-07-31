@@ -47,27 +47,18 @@ sentiment classifier/
 
 ## Data Format
 
-The dataset is provided as a JSON file with the following structure:
+The dataset is provided as a CSV file with the following structure:
 
-```json
-[
-  {
-    "tweet": "I hate waiting in line",
-    "label": 1
-  },
-  {
-    "tweet": "What a beautiful day!",
-    "label": 0
-  },
-  {
-    "tweet": "It's okay, nothing special",
-    "label": 2
-  }
-]
+```csv
+date,country,lang,content,label
+2021-10-23 16:20:41+00:00,Germany,de,"Plakataktion zur Thematik „Muslime gegen Rasissmus“ von 22.10.2021 - 01.11.2021 
+
+#Islam #Muslimegegenrassismus #Ahmadiyya #Menschenrechte https://t.co/gEVGGN0GSL",0
+2015-05-16 05:37:36+00:00,France,en,"Worth every penny to come here! Even Just for the beach. 
+#SubhanAllah 🙏😍💖😇
+
+From the top view of… https://t.co/0RqLsnlorJ",2
 ```
-
-* `tweet`: The content of the tweet.
-* `label`: Integer label (`0` positive, `1` negative, `2` other).
 
 
 
