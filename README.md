@@ -1,4 +1,4 @@
-# Sentiment Classifier in Tweets using a Neural Network
+# Sentiment Classifier for Tweets using a Neural Network
 
 This project is part of a shared course assignment for **Foundations of Language Technology**, completed during the **Winter 2021/2022** term. The goal of the project was to design and train a simple neural network model to detect **sentiments** in tweets and classify them into positive, negative, or other categories.
 
